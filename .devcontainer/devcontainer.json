@@ -23,13 +23,46 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow"
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80,
+        "eslint.run": "onSave",
+        "eslint.format.enable": true,
+        "eslint.lintTask.enable": true,
+        "eslint.validate": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ],
+        "files.associations": {
+          "*.js": "javascriptreact"
+        },
+        "prettier.singleQuote": true,
+        "prettier.trailingComma": "all",
+        "prettier.jsxSingleQuote": true,
+        "prettier.printWidth": 80,
+        "prettier.tabWidth": 2,
+        "prettier.useTabs": false,
+        "prettier.proseWrap": "always",
+        "prettier.arrowParens": "always",
+        "prettier.bracketSpacing": true,
+        "prettier.semi": false,
+        "prettier.endOfLine": "auto",
+        "prettier.ignorePath": ".prettierignore",
+        "prettier.requireConfig": true,
+        "prettier.configPath": ".prettierrc"
       }
     }
   },
